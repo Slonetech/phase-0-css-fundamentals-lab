@@ -3,3 +3,51 @@ body {
   height: 100%;
   margin: 0;
 }
+h1 {
+  text-align: center;
+}
+.topnav-centered a {
+  float: none;
+  
+  position: relative;
+  
+}
+
+#details{
+  background-color: red;
+  align-items: flex-start;
+  height: 150px;
+  width: 100%;
+  
+}
+.flex-container{
+  display: flex;
+  flex-wrap: nowrap;
+}
+.flex-container > div {
+  margin: 150px;
+  text-align: center;
+  line-height: 25px;
+  font-size: 15px;
+  margin-top: 5px;
+ 
+}
+
+figure img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100;
+}
+p{
+  
+  
+  text-align: center;
+}
+figcaption{
+  text-align: center;
+  font-size:small;
+}
+div{
+  text-align: center;
+}
